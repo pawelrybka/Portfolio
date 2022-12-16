@@ -1,0 +1,15 @@
+.first{
+    color: red;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 92vh;
+    background-color: black
+    
+
+}
+
+
