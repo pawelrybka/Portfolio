@@ -1,60 +1,83 @@
-.nav{
-    background-color: black;
+.header{
+    background-color: red;
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__content{
+    width: 99%;
+    height: 6vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: white;
-    height: 8vh;
-    border-bottom: 1px solid white;
+    background-color: black;
+    margin: 0 auto;
 }
 
-.ul{
-    text-decoration: none;
-    list-style-type: none;
+.header__content__nav{
+    width: 300px;
+    height: 92vh;
+    position: absolute;
+    top: 8vh;
+    right: 0;
     display: flex;
-    gap: 2rem;
-    margin-right: 1rem;
-    display: none;
+    justify-content: center;
+    flex-direction: column;
+    background-color: green;
 }
 
-.logo{
-    margin-left: 2rem;
+@media screen and (min-width:600px) {
+    .header__content__nav{
+        flex-direction: row;
+    }
 }
 
-.hamurgerMenu{
-    height: 3rem;
-    width: 3rem;
-    margin-right: 2rem;
+
+.header__content__nav ul{
     display: flex;
     flex-direction: column;
-    gap: 7px;
-    justify-content: center;
     align-items: center;
-    cursor: pointer;
+    gap: 100px;
 }
 
-.hamburgerLine{
+.header__content__nav ul a{
+    text-decoration: none;
+    color: white;
+}
+
+.header__content__nav ul a:hover{
+    color: red;
+    transition: ease-in-out .3s;
+
+}
+
+.header__content__hamburgermenu{
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
+    cursor: pointer;
+    
+}
+
+@media screen and (min-width:600px) {
+    .header__content__hamburgermenu{
+        display: none;
+    }
+}
+
+
+.header__content__hamburgerline{
     width: 80%;
     height: 5px;
     background-color: white;
     border-radius: 5px;
-}
-
-.menu{
-    width: 300px;
-    height: 300px;
-    background-color: red;
-    position: absolute;
-    right: 0;
-    top: 5rem;
-}
-
-.hidden {
-    display: none;
-}
-
-.visible{
-    display: inherit;
 }
 
 

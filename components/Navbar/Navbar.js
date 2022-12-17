@@ -1,41 +1,41 @@
-import React from 'react'
+import React, { useState } from 'react';
 import styles from './Navbar.module.css'
-import Image from 'next/image'
+import Image from 'next/Image';
 import logo from '../../images/logo.png'
 
 const Navbar = () => {
   
-  const [menuClass, setMenuClass] = useState('menu hidden')
-  const [isMenuClicked, setMenuClicked] = useState(false)
-
-  function show(){
-    if(isMenuClicked) {
-      setMenuClass('menu visible')
-    }
-    else {
-      setMenuClass('menu hidden')
-    }
-  }
   
   return (
-    <>
-      <nav className={styles.nav}>
-        <Image src={logo} height={50} className={styles.logo}  />
-        <ul className={styles.ul}>
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact</li>
-        </ul>
-        <div className={styles.hamurgerMenu}>
-          <div className={styles.hamburgerLine}></div>
-          <div className={styles.hamburgerLine}></div>
+    <header className={styles.header}>
+      <div className={styles.header__content}>
+        <Image src={logo} width={60}/>
+        <nav className={styles.header__content__nav}>
+          <ul>
+            <li>
+              <a href='/'>
+                Home
+              </a>
+            </li>
+            <li>
+              <a href='/about'>
+                About
+              </a>
+            </li>
+            <li>
+              <a href='/contact'>
+                Contact
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div className={styles.header__content__hamburgermenu}>
+          <div className={styles.header__content__hamburgerline}></div>
+          <div className={styles.header__content__hamburgerline}></div>
         </div>
-        <div className={style.menu}></div>
-      
-      </nav>
-    </>
+      </div>
+    </header>
   )
 }
 
 export default Navbar;
-

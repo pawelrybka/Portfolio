@@ -1,11 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+    overflow: hidden;
 }
 
 body{
-    background-color: black;
+    background-color: rgb(14,18,18);
+    color: white;
 }
+
 
 
