@@ -5,12 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Anton', sans-serif;
-    overflow: hidden;
-}
-
-body{
-    background-color: rgb(14,18,18);
-    color: white;
+    overflow-x: hidden;
 }
 
 
