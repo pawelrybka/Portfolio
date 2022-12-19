@@ -32,8 +32,8 @@ const Navbar = () => {
           </li>
         </ul>
       <div className={styles.headerBurgerMenu} onClick={menuToggleHandler}>
-        <div className={styles.headerBurgerline}></div>
-        <div className={styles.headerBurgerline}></div>
+        <div className={`${styles.headerBurgerline} ${menuOpen ? styles.clicked : styles.unclicked}`}></div>
+        <div className={`${styles.headerBurgerline} ${menuOpen ? styles.clicked : styles.unclicked}`}></div>
       </div>
     </header>
   )

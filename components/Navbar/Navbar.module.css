@@ -39,7 +39,7 @@
 
 .headerBurgerMenu{
     width: 3rem;
-    height: 2rem;
+    height: 3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -66,13 +66,28 @@
     transform: translate(-100%);
 }
 
+/* CLICKED */
+
 .headerBurgerline.clicked:nth-child(1){
-    transform: rotate(45deg);
+    transform: translateY(5px) rotate(45deg); ; 
     transition: ease-in-out .3s;
 }
 
 .headerBurgerline.clicked:nth-child(2){
-    transform: rotate(-45deg);
+    transform: translateY(-5px) rotate(-45deg);
+    transition: ease-in-out .3s;
+}
+
+
+/* UNCLICKED */
+
+.headerBurgerline.unclicked:nth-child(1){
+    transform: translateY(0); 
+    transition: ease-in-out .3s;
+}
+
+.headerBurgerline.unclicked:nth-child(2){
+    transform: translateY(0); 
     transition: ease-in-out .3s;
 }
 
