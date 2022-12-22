@@ -1,16 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Anton', sans-serif;
+html {
+    scroll-behavior: smooth;
+    font-family: 'Bebas Neue';
     overflow-x: hidden;
 }
-
-body{
-    background-color: rgb(14,18,18);
-
-}
-
 
