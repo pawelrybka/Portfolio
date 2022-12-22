@@ -25,7 +25,7 @@ const Aboutme = () => {
         </p> 
         <div className='flex flex-col justify-center items-center gap-10'>
             <p className='text-center text-lg'>Technologies that I use in projects:</p>
-            <div className='flex gap-5'>
+            <div className='flex gap-3'>
                 
                 <div className='flex flex-col items-center'>
                     <AiFillHtml5 size={50} />
@@ -50,13 +50,11 @@ const Aboutme = () => {
                 </div> 
                 <div className='flex flex-col items-center'>
                     <SiTailwindcss size={50} />
-                    <p>Tailwind CSS</p>    
+                    <p>Tailwind</p>    
                 </div> 
             </div>
         </div>
-        <Image src={fall} />
-
-    
+        <Image src={fall} className='animate-[wiggle_4s_ease-in-out_infinite]'/>
     </div>
   )
 }

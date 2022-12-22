@@ -8,7 +8,8 @@ const Hero = () => {
   return (
     <div className= 'flex justify-center items-center h-screen w-screen bg-slate-200'>
         <div className='flex-col gap-11'>
-            <Image src={me} width={300} className='rounded-full' />
+          <Image src={me} width={300} className='rounded-full' />
+          <div> 
             <div className='p-4'>
                 <h1 className='text-center text-6xl'>Paweł Rybka</h1>
                 <h2 className='text-center text-3xl'>Frontend Developer</h2>
@@ -17,6 +18,7 @@ const Hero = () => {
                 <AiFillGithub size={60} className='hover:scale-125 ease-out duration-300' />
                 <AiFillLinkedin size={60} className='hover:scale-125 ease-out duration-300' />
             </div>
+          </div> 
         </div>
     </div>
   )

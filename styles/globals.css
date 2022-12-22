@@ -5,7 +5,7 @@
 
 html {
     scroll-behavior: smooth;
-    font-family: 'Bebas Neue';
     overflow-x: hidden;
+    font-family: 'Bebas Neue', cursive;
 }
 
