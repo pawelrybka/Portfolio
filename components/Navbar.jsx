@@ -7,14 +7,11 @@ import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
 const Navbar = () => {
   
     const [nav, setNav] = useState(false)
-    const [color, setColor] = useState('transparent')
-    const [textColor, setTextColor] = useState('white')
-
+    
     const handleNav =() => {
         setNav(!nav)
     }
     
-   
     return (
     <div className=' left-0 top-0 w-full z-10 easy-in duration-300 bg-neutral-800 text-white'>
         <div className='m-auto flex justify-end items-center'>

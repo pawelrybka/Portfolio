@@ -1,6 +1,7 @@
 import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import Project from '../components/Project'
+import Aboutme from '../components/Aboutme'
 
 function Home() {
   return (
@@ -8,6 +9,7 @@ function Home() {
       <Navbar />
       <Hero />
       <Project />
+      <Aboutme />
     </>
   )
 }
