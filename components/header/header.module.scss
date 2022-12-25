@@ -46,24 +46,20 @@
         cursor: pointer;
         @media screen and (min-width:900px) {
             display: none;
-
         }
 
         .line{
             width: 80%;
             height: 5px;
             background-color: black;
-            border-radius: 5px;
-            
+            border-radius: 5px;   
         }
-    
     }
 
     a{
         text-decoration: none;
         color: black;
     }
-    
 }
 
 
