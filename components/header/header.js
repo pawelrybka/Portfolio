@@ -1,10 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styles from './header.module.scss'
 
 const header = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const menuToggleHandler = () => {
+    setMenuOpen((p) => !p)
+  }
+
   return (
     <div className={styles.header}>
-      <ul>
+      <ul className={menuOpen ? styles.isMenu : ''}>
         <li>
           <a href=''>Home</a>
         </li>  
@@ -15,7 +21,7 @@ const header = () => {
           <a href=''>Contact</a>
         </li> 
       </ul>
-      <button className={styles.hamburger}>
+      <button className={styles.hamburger} onClick={menuToggleHandler}>
         <div className={styles.line}></div>
         <div className={styles.line}></div>
         <div className={styles.line}></div>
