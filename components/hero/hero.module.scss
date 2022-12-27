@@ -1,4 +1,50 @@
 .hero{
     width: 100%;
     height: 100vh;
-}
+    background-color: rgb(247,247,247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    @media screen and (min-width:900px) {
+        flex-direction: row;
+    }
+    
+    .heroImage{
+        width: 400px;
+        border-radius: 50%;
+    }
+    .heroLeft{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        .heroDes{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h1{
+                font-size: 4rem
+            }
+            h2{
+                font-size: 2rem;
+        
+            }
+        }
+        .heroIcons{
+            display: flex;
+            gap: 30px;
+            .heroIcon{
+                color: black;
+                &:hover{
+                   transform: scale(120%);
+                   transition: .3s ease-in-out;
+                }
+            }
+        }
+    }
+}   
+    
+  
+
