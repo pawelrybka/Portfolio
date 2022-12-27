@@ -1,7 +1,7 @@
 import Header from '../components/header/header'
 import Hero from '../components/hero/hero'
 import Project from '../components/project/project'
-
+import Aboutme from '../components/aboutme/aboutme'
 
 function Home() {
   return (
@@ -9,6 +9,7 @@ function Home() {
       <Header />
       <Hero />
       <Project />
+      <Aboutme />
     </>
   )
 }
