@@ -21,6 +21,7 @@
         transform: translate(100%);
         transition: ease-in-out .3s;
         background-color: white;
+        z-index: 10;
         @media screen and (min-width:900px) {
             transform: none;
             position: static;
