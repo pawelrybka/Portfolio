@@ -14,6 +14,10 @@
     .heroImage{
         width: 20rem;
         border-radius: 50%;
+        @media screen and (max-height:740px) {
+            width: 18rem;
+            margin-top: 50px;
+        }
     }
     .heroLeft{
         display: flex;

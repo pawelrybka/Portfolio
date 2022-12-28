@@ -1,14 +1,13 @@
 .contact{
     width: 100%;
     height: fit-content;
-    padding: 3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 50px;
-    padding: 3rem;
+    padding: 1rem;
     .contact__title{
-        font-size: 4rem;
+        font-size: 3rem;
         text-align: center;
     }
     form{
