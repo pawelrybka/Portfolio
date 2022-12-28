@@ -32,31 +32,31 @@ const aboutme = () => {
                 <div className={styles.aboutme__content__description__icons}>
                     
                     <div className={styles.aboutme__content__description__icon}>
-                        <AiFillHtml5 size={40} />
+                        <AiFillHtml5 size={60} />
                         <p>HTML5</p>
                     </div>
                     
                     <div className={styles.aboutme__content__description__icon}>
-                        <DiCss3 size={40}/>
+                        <DiCss3 size={60}/>
                         <p>CSS3</p>
                     </div>
                     
                     <div className={styles.aboutme__content__description__icon}>
-                        <DiJavascript1 size={40}/>
+                        <DiJavascript1 size={60}/>
                         <p>Javascript</p>
                     </div>
                     
                     <div className={styles.aboutme__content__description__icon}>
-                        <DiReact size={40}/>
+                        <DiReact size={60}/>
                         <p>ReactJS</p>
                     </div>
                     
                     <div className={styles.aboutme__content__description__icon}>
-                        <DiSass size={40}/>
+                        <DiSass size={60}/>
                         <p>SCSS</p>
                     </div>
                     <div className={styles.aboutme__content__description__icon}>
-                        <FaGitAlt size={40} color/>
+                        <FaGitAlt size={60} color/>
                         <p>GIT</p>
                     </div>
                 </div>

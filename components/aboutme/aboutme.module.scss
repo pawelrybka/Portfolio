@@ -23,11 +23,12 @@
             gap: 30px;
             .aboutme__content__description__icons{
                 display: flex;
-                gap: 30px;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 60px;
                 .aboutme__content__description__icon{
                     display: flex;
                     flex-direction: column;
-                    justify-content: center;
                     align-items: center;
                 }
             }
@@ -39,6 +40,7 @@
             align-items: center;
             .aboutme__content__image{
                 animation: fall 3s ease-in-out infinite;
+                width: 20rem;
                 @keyframes fall {
                     0%{transform: translateY(0)};
                     50%{transform: translateY(-70px)};
@@ -52,9 +54,9 @@
                 border-radius: 50%;
                 filter: blur(4px);
                 @keyframes resize {
-                    0%{width: 28rem};
-                    50%{width: 20rem};
-                    100%{width: 28rem};
+                    0%{width: 20rem};
+                    50%{width: 15rem};
+                    100%{width: 20rem};
                 }
             }
         }
