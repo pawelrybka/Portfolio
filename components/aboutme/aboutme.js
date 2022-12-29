@@ -10,7 +10,7 @@ import { FaGitAlt } from 'react-icons/fa';
 
 const aboutme = () => {
   return (
-    <div className={styles.aboutme}>
+    <div className={styles.aboutme} id='aboutme'>
         <p className={styles.aboutme__title}>Who am I?</p>
         <div className={styles.aboutme__content}>
             <div className={styles.aboutme__content__description}>

@@ -1,11 +1,10 @@
 .aboutme{
     width: 100%;
-    height: fit-content;
     background-color: rgb(247,247,247);
     padding: 1rem;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 1rem;
     .aboutme__title{
         font-size: 3rem;
         text-align: center;

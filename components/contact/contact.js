@@ -4,7 +4,7 @@ import styles from './contact.module.scss'
 
 const contact = () => {
   return (
-    <div className={styles.contact}>
+    <div className={styles.contact} id='contact'>
         <p className={styles.contact__title}>Contact with me!</p>
         <form>
           <input type='text' placeholder="Your email" required></input>

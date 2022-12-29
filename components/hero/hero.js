@@ -5,7 +5,7 @@ import { AiFillLinkedin } from 'react-icons/ai';
 
 const hero = () => {
   return (
-    <div className={styles.hero}>
+    <div className={styles.hero} id='hero'>
       <img src='./me.jpg' className={styles.heroImage}/>
       <div className={styles.heroLeft}>
         <div className={styles.heroDes}>
