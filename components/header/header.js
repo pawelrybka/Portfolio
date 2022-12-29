@@ -12,13 +12,13 @@ const header = () => {
     <div className={styles.header}>
       <ul className={menuOpen ? styles.isMenu : ''}>
         <li>
-          <a href='#hero'>Home</a>
+          <a href='hero'>Home</a>
         </li>  
         <li>
-          <a href='#aboutme'>About</a>
+          <a href='aboutme'>About</a>
         </li>  
         <li>
-          <a href='#contact'>Contact</a>
+          <a href='contact'>Contact</a>
         </li> 
       </ul>
       <button className={styles.hamburger} onClick={menuToggleHandler}>

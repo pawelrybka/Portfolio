@@ -19,7 +19,7 @@ const project = () => {
                     <DiJavascript1 size={60}/>
                 </div>
                 <div className={styles.project__section__buttons}>
-                    <button>View</button>
+                    <a href='https://pawelrybka.github.io/Flappy-Bird-Clone/'>View</a>
                     <button>Code</button>
                 </div>
             </div>
