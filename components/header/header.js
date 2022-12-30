@@ -1,27 +1,26 @@
 import React, { useState } from 'react'
 import styles from './header.module.scss'
+import {Link} from 'react-scroll'
 
 const header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const menuToggleHandler = () => setMenuOpen(!menuOpen)
     
-  
-
   return (
     <div className={styles.header}>
       <ul className={menuOpen ? styles.isMenu : ''}>
         <li>
-          <a href='#hero' onClick={menuToggleHandler}>Home</a>
+          <Link to="hero" spy={true} smooth={true} offset={0} duration={500} onClick={menuToggleHandler}>Home</Link>
         </li>  
         <li>
-          <a href='#projects' onClick={menuToggleHandler}>Projects</a>
+          <Link to="projects" spy={true} smooth={true} offset={0} duration={500} onClick={menuToggleHandler}>Projects</Link>
         </li>  
         <li>
-          <a href='#aboutme' onClick={menuToggleHandler}>About</a>
+          <Link to="aboutme" spy={true} smooth={true} offset={0} duration={500} onClick={menuToggleHandler}>About</Link>
         </li>  
         <li>
-          <a href='#contact' onClick={menuToggleHandler}>Contact</a>
+          <Link to="contact" spy={true} smooth={true} offset={0} duration={500} onClick={menuToggleHandler}>Contact</Link>
         </li> 
       </ul>
       <button className={styles.hamburger} onClick={menuToggleHandler}>

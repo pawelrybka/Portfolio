@@ -22,6 +22,10 @@
         transition: ease-in-out .3s;
         background-color: white;
         z-index: 10;
+        li{
+            text-decoration: none;
+            cursor: pointer;
+        }
         @media screen and (min-width:900px) {
             transform: none;
             position: static;
@@ -71,11 +75,6 @@
         .active:nth-child(3){
             transform:  translateY(-10px) rotate(-45deg);   
         }
-    }
-
-    a{
-        text-decoration: none;
-        color: black;
     }
 }
 
