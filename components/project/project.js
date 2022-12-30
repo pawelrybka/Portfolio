@@ -6,7 +6,7 @@ import { DiJavascript1 } from 'react-icons/di';
 
 const project = () => {
   return (
-    <div className={styles.project}>
+    <div className={styles.project} id='projects'>
         <p className={styles.project__title}>Projects</p>
         <div className={styles.project__section}>
             
@@ -20,7 +20,7 @@ const project = () => {
                 </div>
                 <div className={styles.project__section__buttons}>
                     <a href='https://pawelrybka.github.io/Flappy-Bird-Clone/'>View</a>
-                    <button>Code</button>
+                    <a href='https://github.com/pawelrybka/Flappy-Bird-Clone'>Code</a>
                 </div>
             </div>
         
@@ -33,8 +33,8 @@ const project = () => {
                     <DiJavascript1 size={60}/>
                 </div>
                 <div className={styles.project__section__buttons}>
-                    <button>View</button>
-                    <button>Code</button>
+                    <a href='https://pawelrybka.github.io/IOS-Calculator-Clone/'>View</a>
+                    <a href='https://github.com/pawelrybka/IOS-Calculator-Clone'>Code</a>
                 </div>
             </div>
         
