@@ -19,12 +19,15 @@
         align-items: center;
         list-style-type: none;
         transform: translate(100%);
-        transition: ease-in-out .3s;
+        transition: .3s ease-in-out;
         background-color: white;
         z-index: 10;
         li{
             text-decoration: none;
             cursor: pointer;
+            &:hover{
+                border-bottom: 3px solid black;
+            }
         }
         @media screen and (min-width:900px) {
             transform: none;
