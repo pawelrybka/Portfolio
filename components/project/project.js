@@ -38,6 +38,8 @@ const project = () => {
                 </div>
             </div>
         
+            <div>tak</div>
+
         </div>
     </div>
   )
