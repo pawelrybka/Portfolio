@@ -38,7 +38,19 @@ const project = () => {
                 </div>
             </div>
         
-            <div>tak</div>
+            <div className={styles.project__section__first}>
+                <img src='calculator.png' className={styles.project__section__picture}/>
+                <p className={styles.project__section__des}>iOS calculator clone</p>
+                <div className={styles.project__section__icons}>
+                    <AiFillHtml5 size={60}/>
+                    <DiCss3 size={60}/>
+                    <DiJavascript1 size={60}/>
+                </div>
+                <div className={styles.project__section__buttons}>
+                    <a href='https://pawelrybka.github.io/IOS-Calculator-Clone/'>View</a>
+                    <a href='https://github.com/pawelrybka/IOS-Calculator-Clone'>Code</a>
+                </div>
+            </div>
 
         </div>
     </div>
