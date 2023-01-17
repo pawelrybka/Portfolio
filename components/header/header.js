@@ -1,12 +1,15 @@
 import React, { useState } from 'react'
 import styles from './header.module.scss'
 import {Link} from 'react-scroll'
+import {useScrollPosition} from '../hooks/useScrollPosition'
 
 const header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const menuToggleHandler = () => setMenuOpen(!menuOpen)
     
+  const scrollPosition = useScrollPosition
+  console.log(scrollPosition)
   return (
     <div className={styles.header}>
       <ul className={menuOpen ? styles.isMenu : ''}>
