@@ -20,7 +20,8 @@
         list-style-type: none;
         transform: translate(100%);
         transition: .3s ease-in-out;
-        background-color: white;
+        background-color: rgba($color: #ffffff, $alpha: .75);
+        backdrop-filter: blur(8px);
         z-index: 10;
         li{
             text-decoration: none;
