@@ -12,7 +12,27 @@ body{
     font-family: 'Montserrat', sans-serif;
     background-color: black;
     color: var(--dark-white);
+    min-height: 100vh;
 }
 
+.color-layout {
+    --color: #;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    max-width: 100%;
+    width: 100%;
+    filter: blur(44px);
+    opacity: 25%;
+    z-index: -1;
+    position: fixed;
+}
 
+.layout-blue {
+    background: radial-gradient(at 150% 0%, #3D25FA 0, transparent 50%);
+}
 
+.layout-purple {
+    top: 25%;
+    background: radial-gradient(at 0% 150%, #8825fa 0, transparent 50%);
+}
