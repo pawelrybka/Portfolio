@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import styles from './navbar.module.css'
 import Link from 'next/link'
 
-const header = () => {
+export default function navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   console.log(menuOpen)
@@ -35,5 +35,4 @@ const header = () => {
   )
 }
 
-export default header;
 
