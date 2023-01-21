@@ -21,6 +21,17 @@
     transition: .3s ease-in-out;
 }
 
+.header__nav{
+    color: var(--dark-white);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header__nav:hover{
+    color: var(--dark-purple);
+    transition: .3s ease-in-out;
+}
+
 .menu{
     position: absolute;
     right: 0;
@@ -47,13 +58,6 @@
         flex-direction: row;
         padding-right: 3rem;
     }
-}
-
-.menu li a{
-    text-decoration: none;
-    cursor: pointer; 
-    color: var(--dark-white);
-    font-weight: bold;
 }
 
 .menu li a:hover{

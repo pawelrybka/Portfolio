@@ -10,20 +10,24 @@ export default function navbar() {
     
   return (
     <div className={styles.header}>
-      <a className={styles.header__logo} href="/">pawelrybka.com</a>
+    
+      <Link className={styles.header__logo} href="/">
+        <p>pawelrybka.com</p>
+      </Link>
+      
       <ul className={`${styles.menu} ${menuOpen ? styles.isMenu : ''}`}>
         
-        <Link href="/about">
-          <a>About</a>
+        <Link className={styles.header__nav} href="/about">
+          <p>About</p>
         </Link>
         
 
-        <Link href="/contact">
-          <a>Contact</a>
+        <Link className={styles.header__nav} href="/contact">
+          <p>Contact</p>
         </Link>
         
-        <Link href="/https://github.com/pawelrybka">
-          <a>Github</a>
+        <Link className={styles.header__nav} href="/https://github.com/pawelrybka">
+          <p>Github</p>
         </Link>
         
       </ul>
