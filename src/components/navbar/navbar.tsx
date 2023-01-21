@@ -22,11 +22,10 @@ const header = () => {
           <a>Contact</a>
         </Link>
         
+        <Link href="/https://github.com/pawelrybka">
+          <a>Github</a>
+        </Link>
         
-        <li>
-          <a href="https://github.com/pawelrybka">Github</a>
-        </li>  
-      
       </ul>
       <button className={styles.hamburger} onClick={menuToggleHandler}>
         <div className={`${styles.line} ${menuOpen ? styles.active : ''}`}></div>
