@@ -1,0 +1,10 @@
+.root {
+	min-height: 150vh;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+
+
+

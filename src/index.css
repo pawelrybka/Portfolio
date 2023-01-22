@@ -11,9 +11,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     background-color: black;
     color: var(--dark-white);
-    overflow-y: scroll;
     overflow-x: hidden; 
-    -webkit-overflow-scrolling: touch;
 }
 
 .color-layout {

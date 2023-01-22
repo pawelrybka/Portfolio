@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Contact from '../src/content/contact/contact'
 
 const index = () => {
   return (
@@ -6,7 +7,7 @@ const index = () => {
       <Head>
         <title>Contact section</title>
       </Head>
-      
+      <Contact/>
     </>
   )
 }
