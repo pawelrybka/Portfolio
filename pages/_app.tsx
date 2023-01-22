@@ -4,7 +4,6 @@ import type { AppProps } from 'next/app'
 import Navbar from '@/src/components/navbar/navbar';
 import Footer from '@/src/components/footer/footer';
 
-
 function App ({ Component, pageProps }: AppProps) {
   return (
     <>
