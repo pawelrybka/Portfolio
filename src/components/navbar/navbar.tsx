@@ -25,9 +25,7 @@ export default function Navbar(){
           <p>Contact</p>
         </Link>
         
-        <Link className={styles.header__nav} href="/https://github.com/pawelrybka">
-          <p>Github</p>
-        </Link>
+        <a className={styles.header__nav} href="https://github.com/pawelrybka">Github</a>
         
       </ul>
       <button className={styles.hamburger} onClick={menuToggleHandler}>
