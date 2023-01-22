@@ -12,7 +12,7 @@ export default function Navbar(){
     <div className={styles.header}>
     
       <Link className={styles.header__logo} href="/">
-        <p>pawelrybka.com</p>
+        <p>pblo</p>
       </Link>
       
       <ul className={`${styles.menu} ${menuOpen ? styles.isMenu : ''}`}>
@@ -21,7 +21,6 @@ export default function Navbar(){
           <p>About</p>
         </Link>
         
-
         <Link className={styles.header__nav} href="/contact">
           <p>Contact</p>
         </Link>
