@@ -7,7 +7,7 @@ import Head from 'next/head';
 
 function App ({ Component, pageProps }: AppProps) {
   return (
-    <div className='content'>
+    <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
       </Head>
@@ -16,7 +16,7 @@ function App ({ Component, pageProps }: AppProps) {
       <div className='color-layout layout-blue'></div>
       <div className='color-layout layout-purple'></div>
       <Footer/>
-    </div>
+    </>
   )
 }
 
