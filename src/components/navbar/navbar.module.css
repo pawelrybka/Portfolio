@@ -4,12 +4,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
     z-index: 1;
-    padding-right: 3rem;
-    padding-left: 3rem;
+    padding: 1rem;
 } 
-    
+
+@media only screen and (min-width: 1200px) {
+    .header {
+        padding: 0rem 20rem 
+    }
+}
+
 .header__logo{
     color: var(--dark-white);
     text-decoration: none;
@@ -49,14 +53,13 @@
     backdrop-filter: blur(1rem);
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1200px) {
     .menu{
         transform: none;
         position: static;
         height: fit-content;
         width: fit-content;
         flex-direction: row;
-        padding-right: 3rem;
     }
 }
 
@@ -82,7 +85,7 @@
     cursor: pointer;
 }
     
-@media screen and (min-width:900px) {
+@media screen and (min-width:1200px) {
     .hamburger{
         display: none;
     }   

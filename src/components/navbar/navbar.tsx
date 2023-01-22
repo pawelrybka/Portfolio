@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import styles from './navbar.module.css'
 import Link from 'next/link'
 
-export default function Navbar() {
+export default function Navbar(){
   const [menuOpen, setMenuOpen] = useState(false);
 
   console.log(menuOpen)
