@@ -17,6 +17,10 @@ body{
     color: var(--dark-white);
 }
 
+.content{
+    overflow-x: hidden;
+}
+
 .color-layout {
     --color: #;
     left: 0;
