@@ -1,7 +1,7 @@
 import styles from './contact.module.css'
-import { AiFillLinkedin } from 'react-icons/Ai';
-import { BsDiscord } from 'react-icons/Bs';
-import { HiOutlineMailOpen } from 'react-icons/Hi';
+import { AiFillLinkedin } from 'react-icons/ai';
+import { BsDiscord } from 'react-icons/bs';
+import { HiOutlineMailOpen } from 'react-icons/hi';
 
 const Contact = () => {
     return(
