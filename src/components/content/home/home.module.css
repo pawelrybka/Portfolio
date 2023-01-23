@@ -1,10 +1,11 @@
-.hero{
-    position: absolute;
-    top: 10vh;
+.home{
     width: 100%;
-    height: 50vh;
-    
+    min-height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+
+
+

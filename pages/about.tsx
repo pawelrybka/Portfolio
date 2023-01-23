@@ -1,5 +1,5 @@
+import About from '@/src/components/content/about/About'
 import Head from 'next/head'
-import About from '../src/content/about/about'
 
 const index = () => {
   return (
@@ -13,3 +13,5 @@ const index = () => {
 }
 
 export default index
+
+

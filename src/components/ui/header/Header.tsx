@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import styles from './navbar.module.css'
+import styles from './header.module.css'
 import Link from 'next/link'
 
-export default function Navbar(){
+function Header(){
   const [menuOpen, setMenuOpen] = useState(false);
 
   console.log(menuOpen)
@@ -36,4 +36,4 @@ export default function Navbar(){
   )
 }
 
-
+export default Header
