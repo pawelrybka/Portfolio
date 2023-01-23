@@ -1,11 +1,34 @@
 .about{
-    position: absolute;
-    top: 10vh;
-    width: 100%;
-    height: 50vh;
     display: flex;
+    flex-direction: column; 
+    position: absolute;
     justify-content: center;
     align-items: center;
+    top: 10vh;
+    padding: 0rem 1rem;
+    gap: 2rem; 
+    
 }
 
+.about__description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.title{
+    color: var(--dark-purple);
+    font-size: 2rem;
+}
+
+.me{
+   text-align: center;
+}
+
+.about__picture{
+    width: 20rem;
+    border-radius: 50%;
+
+}
 
