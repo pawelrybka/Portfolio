@@ -45,13 +45,14 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 6rem;
     justify-content: center;
     align-items: center;
     list-style-type: none;
     transform: translate(100%);
     transition: .3s ease-in-out; 
     backdrop-filter: blur(1rem);
+    font-size: 2rem;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -61,6 +62,7 @@
         height: fit-content;
         width: fit-content;
         flex-direction: row;
+        font-size: 1rem;
     }
 }
  
@@ -75,7 +77,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: .5rem;
     background-color: transparent;
     border: none;
     cursor: pointer;
@@ -89,17 +91,17 @@
 
 .line{
     width: 80%;
-    height: 2px;
+    height: 4px;
     background-color: white;
     transition: .3s ease-in-out;
 }
         
 .active:nth-child(1){
-    transform: translateY(9px) rotate(45deg)
+    transform: translateY(6px) rotate(45deg)
 }
     
 .active:nth-child(2){
-    transform:  translateY(-9px) rotate(-45deg);   
+    transform:  translateY(-6px) rotate(-45deg);   
 }
     
 

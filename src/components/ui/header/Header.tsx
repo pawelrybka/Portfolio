@@ -12,7 +12,7 @@ function Header(){
     <div className={styles.header}>
     
       <Link className={styles.header__logo} href="/">
-        <p>pblo</p>
+        <p>pablO</p>
       </Link>
       
       <ul className={`${styles.menu} ${menuOpen ? styles.isMenu : ''}`}>

@@ -8,13 +8,22 @@
     gap: 3rem;
 }
 
+.contact a{
+    text-decoration: none;
+}
+
 .square{
-    width: 80%;
+    width: 20rem;
     height: 6rem;
     border-radius: 50px;
     border: 3px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 2rem;
+    color: var(--dark-white);
 }
-
 
 @media only screen and (min-width: 1200px) {
     .square{
@@ -22,8 +31,9 @@
     }
 }
 
-
 .square:hover{
     transform: scale(105%);
+    color: var(--dark-purple);
+    border-color: var(--dark-purple);
 }
 
