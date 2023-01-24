@@ -1,12 +1,45 @@
 .home{
     width: 100%;
-    min-height: 80vh;
+    min-height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 10rem;
+    flex-direction: column;
+    padding: 9rem 1rem;
+    gap: 5rem;
 }
 
+.home__title{
+    font-size: 3rem;
+}
 
+.home__title span{
+    color: var(--dark-purple);
+}
+
+.home__skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.skill{
+    width: 15rem;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    border: 2px solid var(--dark-purple);
+}
+
+.skill:hover{
+    border-color: var(--dark-white);;
+}
+
+.skill__icon{
+    width: 2rem;
+}
 
 

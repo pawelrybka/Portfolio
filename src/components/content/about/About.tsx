@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className={styles.about}>
       <div className={styles.about__description}>
-        <p className={styles.title}>Who am I ?</p>
+        <h1 className={styles.title}>Who am I ?</h1>
         <p className={styles.me}>
           I`m Paweł Rybka, web developer from Gliwice. 
           I love building web apps and preety interfaces. 
@@ -22,7 +22,7 @@ const About = () => {
           that are scalable and efficient.
         </p>
       </div>
-      <img src="/me.png" alt="me-picture" className={styles.about__picture}/>
+      <img src="/me.jpg" alt="me-picture" className={styles.about__picture}/>
 
     </div>
   )

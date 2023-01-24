@@ -1,12 +1,11 @@
 .about{
     display: flex;
     flex-direction: column; 
-    min-height: 80vh;
+    min-height: 90vh;
     justify-content: center;
     align-items: center;
-    padding: 0rem 1rem;
-    padding-top: 10rem;
     gap: 3rem; 
+    padding: 9rem 1rem;
 }
 
 .about__description{
@@ -18,7 +17,7 @@
 
 .title{
     color: var(--dark-purple);
-    font-size: 2rem;
+    text-align: center;
 }
 
 .about__picture{

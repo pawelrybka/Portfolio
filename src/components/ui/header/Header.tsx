@@ -30,6 +30,7 @@ function Header(){
       <button className={styles.hamburger} onClick={menuToggleHandler}>
         <div className={`${styles.line} ${menuOpen ? styles.active : ''}`}></div>
         <div className={`${styles.line} ${menuOpen ? styles.active : ''}`}></div>
+        <div className={`${styles.line} ${menuOpen ? styles.active : ''}`}></div>
       </button>
     </div>
   )
