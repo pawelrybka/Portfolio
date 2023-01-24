@@ -5,7 +5,6 @@ import Link from 'next/link'
 function Header(){
   const [menuOpen, setMenuOpen] = useState(false);
 
-  console.log(menuOpen)
   const menuToggleHandler = () => setMenuOpen(!menuOpen)
     
   return (

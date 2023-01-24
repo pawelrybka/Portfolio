@@ -5,15 +5,15 @@
     justify-content: center;
     align-items: center;
     padding: 0rem 1rem;
-    gap: 2rem; 
-    
+    padding-top: 3rem;
+    gap: 3rem; 
 }
 
 .about__description{
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 2rem;
+    max-width: 500px;
 }
 
 .title{
@@ -21,12 +21,21 @@
     font-size: 2rem;
 }
 
-.me{
-   text-align: center;
-}
-
 .about__picture{
     width: 20rem;
     border-radius: 50%;
-    margin-bottom: 3rem;
+}
+
+@media only screen and (min-width: 1300px) {
+    .about {
+        flex-direction: row;
+        padding: 0rem 15rem;
+        gap: 10rem;
+    }
+    .about__description{
+        font-size: 1.1rem;
+    }
+    .about__picture{
+        width: 23rem;
+    }
 }
