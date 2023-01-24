@@ -19,12 +19,12 @@
 
 .home__skills{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    grid-template-columns: 1fr;
+    gap: 1rem;
 }
 
 .skill{
-    width: 15rem;
+    width: 25rem;
     height: 3rem;
     display: flex;
     justify-content: space-between;
@@ -42,4 +42,12 @@
     width: 2rem;
 }
 
+@media only screen and (min-width: 1200px) {
+    .home__skills{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .skill{
+        width: 15rem;
+    }
+}
 

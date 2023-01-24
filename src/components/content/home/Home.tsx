@@ -5,8 +5,12 @@ const index = () => {
     <>
         <div className={styles.home}>
           <h1 className={styles.home__title}>Hi, I am <span>Pablo.</span></h1> 
+
+          <h1 className={styles.home__title}>My repositories</h1>
+
+
+
           <h1 className={styles.home__title}>My <span>skills</span></h1>
-          
           <div className={styles.home__skills}>
             
             <div className={styles.skill}>

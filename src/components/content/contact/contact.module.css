@@ -26,15 +26,16 @@
     color: var(--dark-white);
 }
 
+.square:hover{
+    transform: scale(105%);
+    transition: .2s ease-in-out;
+    
+    color: var(--dark-purple);
+    border-color: var(--dark-purple);
+}
+
 @media only screen and (min-width: 1200px) {
     .square{
         width: 20rem;
     }
 }
-
-.square:hover{
-    transform: scale(105%);
-    color: var(--dark-purple);
-    border-color: var(--dark-purple);
-}
-
