@@ -1,4 +1,6 @@
 import styles from './home.module.css'
+import { BsGithub } from 'react-icons/bs';
+
 
 const index = () => {
   return (
@@ -7,8 +9,10 @@ const index = () => {
           <h1 className={styles.home__title}>Hi, I am <span>Pablo.</span></h1> 
 
           <h1 className={styles.home__title}>My repositories</h1>
-
-
+          
+          <a href="https://github.com/pawelrybka">
+            <button>My repositories<BsGithub size={32}/></button>
+          </a>
 
           <h1 className={styles.home__title}>My <span>skills</span></h1>
           <div className={styles.home__skills}>

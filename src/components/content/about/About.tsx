@@ -1,5 +1,5 @@
 import styles from './about.module.css'
-
+import { AiOutlineCloudDownload } from 'react-icons/ai';
 
 
 const About = () => {
@@ -21,6 +21,10 @@ const About = () => {
           As a web developer, my goal is to always build applications 
           that are scalable and efficient.
         </p>
+        <div className={styles.cv}>
+          <p>Download my</p>
+          <button>CV<AiOutlineCloudDownload  size={28}/></button>
+        </div>
       </div>
       <img src="/me.jpg" alt="me-picture" className={styles.about__picture}/>
 

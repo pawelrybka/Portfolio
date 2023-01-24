@@ -9,6 +9,31 @@
     gap: 5rem;
 }
 
+.home a{
+    text-decoration: none;
+}
+
+.home a button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20rem;
+    padding: .5rem 2rem;
+    border-radius: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 2px solid var(--dark-purple);
+    color: white;
+    background-color: transparent;
+ 
+}
+
+.home a button:hover{
+    transform: scale(105%);
+    transition: .2s ease-in-out;
+}
+
 .home__title{
     font-size: 3rem;
 }
@@ -24,18 +49,18 @@
 }
 
 .skill{
-    width: 25rem;
-    height: 3rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
+    width: 20rem;
+    padding: .5rem 2rem;
     border-radius: 50px;
     border: 2px solid var(--dark-purple);
 }
 
 .skill:hover{
-    border-color: var(--dark-white);;
+    border-color: var(--dark-white);
+    transition: .2s ease-in-out;
 }
 
 .skill__icon{
@@ -49,5 +74,9 @@
     .skill{
         width: 15rem;
     }
+    .home a button{
+        width: 15rem;
+    }
+
 }
 

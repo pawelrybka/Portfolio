@@ -25,6 +25,32 @@
     border-radius: 50%;
 }
 
+.cv{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.cv  button{
+    width: 6rem;
+    height: 3rem;
+    background-color: var(--dark-purple);
+    border-radius: 20px;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.cv  button:hover{
+    background-color: var(--dark-white);
+    transition: .2s ease-in-out;
+}
+
+
 @media only screen and (min-width: 1300px) {
     .about {
         flex-direction: row;
