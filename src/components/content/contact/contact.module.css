@@ -15,12 +15,12 @@
 
 .square{
     width: 20rem;
-    height: 6rem;
     border-radius: 50px;
     border: 3px solid white;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 1rem;
     gap: 2rem;
     font-size: 2rem;
     color: var(--dark-white);
