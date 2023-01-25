@@ -27,29 +27,32 @@
 
 .cv{
     display: flex;
-    gap: 1rem;
-    align-items: center;
     justify-content: center;
+}
+
+.cv a{
+    text-decoration: none;
 }
 
 .cv  button{
-    width: 6rem;
-    height: 3rem;
-    background-color: var(--dark-purple);
-    border-radius: 20px;
-    font-size: 1.2rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 5px;
+    width: 16rem;
+    padding: .5rem 2rem;
+    border-radius: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
     cursor: pointer;
+    border: 2px solid var(--dark-purple);
+    color: white;
+    background-color: transparent;
 }
 
 .cv  button:hover{
-    background-color: var(--dark-white);
+    transform: scale(105%);
     transition: .2s ease-in-out;
 }
-
 
 @media only screen and (min-width: 1300px) {
     .about {

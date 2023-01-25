@@ -85,6 +85,7 @@
 
 .skills__skill{
     display: flex;
+    width: 25rem;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
@@ -101,9 +102,16 @@
     width: 2rem;
 }
 
+@media only screen and (min-width: 900px) {
+    .skills{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
 @media only screen and (min-width: 1200px) {
     .home__first h1{
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
     
     .home__second{
@@ -111,11 +119,15 @@
     }
 
     .home__second h1{
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
 
     .home__third h1{
-        font-size: 4rem;
+        font-size: 3.5rem;
+    }
+
+    .skills{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
     .skills__skill{
@@ -126,3 +138,4 @@
         width: 15rem;
     }
 }
+

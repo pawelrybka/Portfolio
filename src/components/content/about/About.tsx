@@ -22,9 +22,8 @@ const About = () => {
           that are scalable and efficient.
         </p>
         <div className={styles.cv}>
-          <p>Download my</p>
           <a href='/pawel.rybka.cv.pdf' target='_blank' rel='noopener noreferrer'>
-            <button>CV<AiOutlineCloudDownload  size={28}/></button>
+            <button>Download my CV<AiOutlineCloudDownload  size={28}/></button>
           </a>
         </div>
       </div>

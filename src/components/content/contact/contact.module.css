@@ -24,12 +24,12 @@
     gap: 2rem;
     font-size: 2rem;
     color: var(--dark-white);
+    cursor: pointer;
 }
 
 .square:hover{
     transform: scale(105%);
     transition: .2s ease-in-out;
-    
     color: var(--dark-purple);
     border-color: var(--dark-purple);
 }

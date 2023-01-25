@@ -16,15 +16,15 @@ function Header(){
       
       <ul className={`${styles.menu} ${menuOpen ? styles.isMenu : ''}`}>
         
-        <Link className={styles.header__nav} href="/about">
+        <Link className={styles.header__nav} href="/about" onClick={menuToggleHandler}>
           <p>About</p>
         </Link>
         
-        <Link className={styles.header__nav} href="/contact">
+        <Link className={styles.header__nav} href="/contact" onClick={menuToggleHandler}>
           <p>Contact</p>
         </Link>
         
-        <a className={styles.header__nav} href="https://github.com/pawelrybka">Github</a>
+        <a className={styles.header__nav} href="https://github.com/pawelrybka" onClick={menuToggleHandler} target='_blank'>Github</a>
         
       </ul>
       <button className={styles.hamburger} onClick={menuToggleHandler}>
