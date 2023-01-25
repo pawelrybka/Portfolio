@@ -24,7 +24,7 @@ function Header(){
           <p>Contact</p>
         </Link>
         
-        <a className={styles.header__nav} href="https://github.com/pawelrybka" onClick={menuToggleHandler} target='_blank'>Github</a>
+        <a className={styles.header__nav} href="https://github.com/pawelrybka" onClick={menuToggleHandler} target='_blank' rel="noreferrer">Github</a>
         
       </ul>
       <button className={styles.hamburger} onClick={menuToggleHandler}>

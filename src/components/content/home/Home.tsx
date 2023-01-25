@@ -15,7 +15,7 @@ const index = () => {
 
           <div className={styles.home__second}>
             <h1>My <span>repositories.</span></h1>
-            <a href="https://github.com/pawelrybka" target='_blank'>
+            <a href="https://github.com/pawelrybka" target='_blank' rel="noreferrer">
               <button>My repositories<BsGithub size={32}/></button>
             </a>
           </div>

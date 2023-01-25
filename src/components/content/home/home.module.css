@@ -103,6 +103,18 @@
 }
 
 @media only screen and (min-width: 900px) {
+    .home__first h1{
+        font-size: 3rem;
+    }
+    
+    .home__second h1{
+        font-size: 3rem;
+    }
+
+    .home__third h1{
+        font-size: 3rem;
+    }
+
     .skills{
         grid-template-columns: 1fr 1fr;
     }

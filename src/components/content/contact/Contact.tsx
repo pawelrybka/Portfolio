@@ -9,7 +9,7 @@ const Contact = () => {
     return(
         <div className={styles.contact}>
             <h1>Contact with me!</h1>
-            <a href="https://www.linkedin.com/in/pawe%C5%82-rybka-8454a1251/" target='_blank'>
+            <a href="https://www.linkedin.com/in/pawe%C5%82-rybka-8454a1251/" target='_blank' rel="noreferrer">
                 <div className={styles.square}>
                     <AiFillLinkedin size={50}/>
                     <p className={styles.name}>Linkedin</p>
