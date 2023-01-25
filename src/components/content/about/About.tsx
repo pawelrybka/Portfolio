@@ -23,7 +23,9 @@ const About = () => {
         </p>
         <div className={styles.cv}>
           <p>Download my</p>
-          <button>CV<AiOutlineCloudDownload  size={28}/></button>
+          <a href='/pawel.rybka.cv.pdf' target='_blank' rel='noopener noreferrer'>
+            <button>CV<AiOutlineCloudDownload  size={28}/></button>
+          </a>
         </div>
       </div>
       <img src="/me.jpg" alt="me-picture" className={styles.about__picture}/>

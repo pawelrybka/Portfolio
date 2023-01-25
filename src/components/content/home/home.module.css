@@ -1,19 +1,47 @@
+/* First section */
+
 .home{
-    width: 100%;
     min-height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 9rem 1rem;
-    gap: 5rem;
+    padding: 12rem 1rem;
+    gap: 10rem;
 }
 
-.home a{
+.home__first h1{
+    font-size: 2rem;
+}
+
+.home__first h1 span{
+    color: var(--dark-purple);
+}
+
+/* Second section */
+
+.home__second{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+}
+
+.home__second h1{
+    font-size: 2rem;
+}
+
+.home__second a{
     text-decoration: none;
+    display: flex;
+    justify-content: end;
 }
 
-.home a button{
+.home__second h1 span{
+    color: var(--dark-purple);
+}
+
+.home__second button{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,7 +54,6 @@
     border: 2px solid var(--dark-purple);
     color: white;
     background-color: transparent;
- 
 }
 
 .home a button:hover{
@@ -34,31 +61,38 @@
     transition: .2s ease-in-out;
 }
 
-.home__title{
-    font-size: 3rem;
+/* Third section */
+
+.home__third{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
-.home__title span{
+.home__third h1{
+    text-align: end;
+}
+
+.home__third h1 span{
     color: var(--dark-purple);
 }
 
-.home__skills{
+.skills{
     display: grid;
+    grid-gap: 1rem;
     grid-template-columns: 1fr;
-    gap: 1rem;
 }
 
-.skill{
+.skills__skill{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 20rem;
-    padding: .5rem 2rem;
+    padding: 1rem;
     border-radius: 50px;
     border: 2px solid var(--dark-purple);
 }
 
-.skill:hover{
+.skills__skill:hover{
     border-color: var(--dark-white);
     transition: .2s ease-in-out;
 }
@@ -68,15 +102,27 @@
 }
 
 @media only screen and (min-width: 1200px) {
-    .home__skills{
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+    .home__first h1{
+        font-size: 4rem;
     }
-    .skill{
+    
+    .home__second{
+        max-width: 70rem
+    }
+
+    .home__second h1{
+        font-size: 4rem;
+    }
+
+    .home__third h1{
+        font-size: 4rem;
+    }
+
+    .skills__skill{
         width: 15rem;
     }
+
     .home a button{
         width: 15rem;
     }
-
 }
-
