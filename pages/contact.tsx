@@ -5,7 +5,7 @@ const index = () => {
   return (
     <>
       <Head>
-        <title>Contact section</title>
+        <title>Pablo - Contact</title>
       </Head>
       <Contact/>
     </>

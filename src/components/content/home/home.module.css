@@ -85,7 +85,7 @@
 
 .skills__skill{
     display: flex;
-    width: 20rem;
+    width: 22rem;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
@@ -119,7 +119,6 @@
         grid-template-columns: 1fr 1fr;
     }
 }
-
 
 @media only screen and (min-width: 1200px) {
     .home__first h1{

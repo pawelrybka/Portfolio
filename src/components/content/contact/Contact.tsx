@@ -3,9 +3,17 @@ import { AiFillLinkedin } from 'react-icons/ai';
 import { BsDiscord, BsMenuButton } from 'react-icons/bs';
 import { HiOutlineMailOpen } from 'react-icons/hi';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
+import { useState } from 'react';
 
 
 const Contact = () => {
+    
+    const [buttonText, setButtonText] = useState("Email")
+
+    const changeText = () => {
+        setButtonText("Coppied!")
+    }
+    
     return(
         <div className={styles.contact}>
             <h1>Contact with me!</h1>
@@ -24,9 +32,9 @@ const Contact = () => {
             </a>    
                 
             <CopyToClipboard text='rrybka1999@gmail.com'>
-                <div className={styles.square}>
+                <div className={styles.square} onClick={changeText}>
                     <HiOutlineMailOpen size={50}/>
-                    Email
+                    {buttonText}
                 </div>
             </CopyToClipboard>
 
