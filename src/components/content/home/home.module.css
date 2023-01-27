@@ -52,12 +52,13 @@
     font-size: 1rem;
     cursor: pointer;
     border: 2px solid var(--dark-purple);
+    box-shadow: 0 0 2em 0 var(--dark-purple);
     color: white;
     background-color: transparent;
 }
 
 .home a button:hover{
-    transform: scale(105%);
+    box-shadow: 0 0 3em 0 var(--dark-purple);
     transition: .2s ease-in-out;
 }
 
