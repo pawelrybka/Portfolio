@@ -47,10 +47,11 @@
     border: 2px solid var(--dark-purple);
     color: white;
     background-color: transparent;
+    box-shadow: 0 0 2em 0 var(--dark-purple);
 }
 
 .cv  button:hover{
-    transform: scale(105%);
+    box-shadow: 0 0 3em 0 var(--dark-purple);
     transition: .2s ease-in-out;
 }
 
